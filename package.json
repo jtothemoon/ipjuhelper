@@ -10,11 +10,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "prettier --write",
-      "eslint --max-warnings=0 --no-warn-ignored"
-    ],
-    "*.{json,css,md}": [
+    "*.{ts,tsx,json,css,md}": [
       "prettier --write"
     ]
   },

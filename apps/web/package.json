@@ -9,18 +9,20 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@repo/shared": "workspace:^",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@workspace/shared": "workspace:^",
+    "@workspace/ui": "workspace:^",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:^",
-    "@repo/typescript-config": "workspace:^",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@workspace/eslint-config": "workspace:^",
+    "@workspace/typescript-config": "workspace:^",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
