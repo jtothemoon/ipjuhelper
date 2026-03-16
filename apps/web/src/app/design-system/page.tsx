@@ -291,7 +291,7 @@ export default function DesignSystemPage() {
           <div>
             <p className="text-muted-foreground mb-4 text-sm">128px - 메인 로고</p>
             <div className="bg-muted inline-block rounded-lg p-8">
-              <Logo128 width={128} height={128} />
+              <Logo128 height={128} />
             </div>
           </div>
           <div className="flex gap-12">
