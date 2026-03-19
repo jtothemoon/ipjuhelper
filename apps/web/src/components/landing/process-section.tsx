@@ -4,6 +4,8 @@ import IconCalendarAdd from '@workspace/ui/assets/icons/basic/calendarAdd.svg';
 import IconCalendarCheck from '@workspace/ui/assets/icons/basic/calendarCheck.svg';
 import IconExpertcheck from '@workspace/ui/assets/icons/communication/fill_expertcheck2.svg';
 import IconFolderProfile from '@workspace/ui/assets/icons/basic/folderProfile.svg';
+import { SectionWrapper } from '@/components/landing/section-wrapper';
+import { SectionTitle } from '@/components/landing/section-title';
 
 const steps = [
   { icon: IconChatDots, title: '점검 요청', desc: '위치와 날짜 입력' },
@@ -16,20 +18,16 @@ const steps = [
 
 export function ProcessSection() {
   return (
-    <section className="tablet:px-6 tablet:py-20 desktop:px-8 desktop:py-30 bg-white px-4 py-10">
+    <SectionWrapper>
       <div className="desktop:mx-auto desktop:max-w-300">
         {/* 타이틀 영역 */}
-        <div className="tablet:gap-4 desktop:gap-5 mb-8 flex flex-col items-center gap-3">
-          <span className="typo-heading-h1 text-primary">입주 점검 진행 방식</span>
-          <h2 className="typo-display-lg text-foreground text-center whitespace-pre-line">
-            {'점검 요청부터\n리포트 확인까지'}
-          </h2>
-          <p className="typo-body-xl text-foreground text-center whitespace-pre-line">
-            {
-              '점검 위치와 날짜를 입력하면\n전문가에게 요청이 전달되고\n점검 결과를 리포트로 확인할 수 있습니다.'
-            }
-          </p>
-        </div>
+        <SectionTitle
+          subtitle="입주 점검 진행 방식"
+          title={'점검 요청부터\n리포트 확인까지'}
+          description={
+            '점검 위치와 날짜를 입력하면\n전문가에게 요청이 전달되고\n점검 결과를 리포트로 확인할 수 있습니다.'
+          }
+        />
 
         {/* 타임라인 */}
         <div className="desktop:mx-auto desktop:max-w-184 rounded-2xl bg-[#FAFBFA] px-4 py-6">
@@ -56,6 +54,6 @@ export function ProcessSection() {
           </div>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

@@ -6,7 +6,7 @@ import { ServiceSection } from '@/components/landing/service-section';
 import { ProblemSection } from '@/components/landing/problem-section';
 import { ProcessSection } from '@/components/landing/process-section';
 import { ExtraServiceSection } from '@/components/landing/extra-service-section';
-import { CtaSection } from '@/components/landing/cta-banner';
+import { CtaSection } from '@/components/landing/cta-section';
 
 export default function Home() {
   return (

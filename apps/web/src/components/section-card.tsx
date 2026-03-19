@@ -24,6 +24,11 @@ export function SectionCard({
   return (
     <div
       onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') onClick?.();
+      }}
       className={cn(
         'border-border hover:border-primary tablet:w-full flex h-40 w-82 cursor-pointer items-center rounded-2xl border bg-white p-6 transition-all hover:shadow-[0px_2px_13px_rgba(96,85,162,0.16)]',
         className,

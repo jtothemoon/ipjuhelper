@@ -1,20 +1,21 @@
 import Image from 'next/image';
 import { Button } from '@workspace/ui/components/button';
+import { SectionWrapper } from '@/components/landing/section-wrapper';
+import { SectionTitle } from '@/components/landing/section-title';
 
 export function ExtraServiceSection() {
   return (
-    <section className="tablet:px-6 tablet:py-20 desktop:px-8 desktop:py-30 bg-white px-4 py-10">
+    <SectionWrapper>
       <div className="desktop:mx-auto desktop:max-w-300">
         {/* 타이틀 영역 */}
-        <div className="tablet:gap-4 desktop:gap-5 mb-6 flex flex-col items-center gap-3">
-          <span className="typo-heading-h1 text-primary">입주 준비 서비스</span>
-          <h2 className="typo-display-lg text-center whitespace-pre-line text-[#1E1E1E]">
-            {'점검 이후 필요한 서비스까지\n입주도우미에서'}
-          </h2>
-          <p className="typo-body-xl text-foreground text-center whitespace-pre-line">
-            {'하자 점검 이후 필요한\n줄눈, 입주 청소 등의 서비스도\n순차적으로 확장될 예정입니다.'}
-          </p>
-        </div>
+        <SectionTitle
+          className="mb-6"
+          subtitle="입주 준비 서비스"
+          title={'점검 이후 필요한 서비스까지\n입주도우미에서'}
+          description={
+            '하자 점검 이후 필요한\n줄눈, 입주 청소 등의 서비스도\n순차적으로 확장될 예정입니다.'
+          }
+        />
 
         {/* 카드 영역 */}
         <div className="mb-6 flex flex-col gap-4.5">
@@ -86,6 +87,6 @@ export function ExtraServiceSection() {
           </Button>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

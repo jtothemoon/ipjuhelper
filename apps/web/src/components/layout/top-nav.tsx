@@ -11,9 +11,12 @@ export function TopNav() {
       </Link>
 
       {/* Nav */}
-      <nav className="tablet:gap-8 desktop:gap-8 ml-auto flex items-center gap-4">
+      <nav
+        className="tablet:gap-8 desktop:gap-8 ml-auto flex items-center gap-4"
+        aria-label="주요 탐색"
+      >
         {/* 모바일: 메뉴 */}
-        <Button variant="text" size="text" className="tablet:hidden">
+        <Button variant="text" size="text" className="tablet:hidden" aria-label="메뉴 열기">
           메뉴
         </Button>
 

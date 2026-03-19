@@ -1,19 +1,17 @@
 import { StepCard } from '@/components/step-card';
+import { SectionWrapper } from '@/components/landing/section-wrapper';
+import { SectionTitle } from '@/components/landing/section-title';
 
 export function ProblemSection() {
   return (
-    <section className="tablet:px-6 tablet:py-20 desktop:px-8 desktop:py-30 bg-white px-4 py-10">
+    <SectionWrapper>
       <div className="desktop:mx-auto desktop:max-w-300">
         {/* 타이틀 영역 */}
-        <div className="tablet:gap-4 desktop:gap-5 mb-8 flex flex-col items-center gap-3">
-          <span className="typo-heading-h1 text-primary">아직도 이렇게 하시나요?</span>
-          <h2 className="typo-display-lg text-center whitespace-pre-line text-[#1E1E1E]">
-            {'입주 하자 점검,\n왜 이렇게 복잡할까요?'}
-          </h2>
-          <p className="typo-body-xl text-foreground text-center">
-            정보는 흩어져 있고 기록은 연결되지 않습니다.
-          </p>
-        </div>
+        <SectionTitle
+          subtitle="아직도 이렇게 하시나요?"
+          title={'입주 하자 점검,\n왜 이렇게 복잡할까요?'}
+          description="정보는 흩어져 있고 기록은 연결되지 않습니다."
+        />
 
         {/* 카드 2×2 (모바일) → 4개 한 줄 (태블릿) */}
         <div className="tablet:flex-row flex flex-col gap-3">
@@ -46,6 +44,6 @@ export function ProblemSection() {
           </div>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
