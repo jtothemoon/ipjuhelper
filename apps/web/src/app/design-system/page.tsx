@@ -7,6 +7,7 @@ import { LogoSection } from './_components/logo-section';
 import { IconsSection } from './_components/icons-section';
 import { ControlsSection } from './_components/controls-section';
 import { SurfacesSection } from './_components/surfaces-section';
+import { NavigationSection } from '@/app/design-system/_components/navigation-section';
 
 export default function DesignSystemPage() {
   return (
@@ -21,6 +22,7 @@ export default function DesignSystemPage() {
           <TabsTrigger value="icons">Icons</TabsTrigger>
           <TabsTrigger value="controls">Controls</TabsTrigger>
           <TabsTrigger value="surfaces">Surfaces</TabsTrigger>
+          <TabsTrigger value="navigation">Navigation</TabsTrigger>
         </TabsList>
 
         <TabsContent value="typography" className="space-y-12 pt-8">
@@ -40,6 +42,9 @@ export default function DesignSystemPage() {
         </TabsContent>
         <TabsContent value="surfaces" className="space-y-12 pt-8">
           <SurfacesSection />
+        </TabsContent>
+        <TabsContent value="navigation" className="space-y-12 pt-8">
+          <NavigationSection />
         </TabsContent>
       </Tabs>
     </main>
