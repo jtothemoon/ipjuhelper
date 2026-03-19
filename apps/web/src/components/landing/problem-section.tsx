@@ -3,14 +3,14 @@ import { StepCard } from '@/components/step-card';
 export function ProblemSection() {
   return (
     <section className="bg-white px-4 py-10">
-      <div className="mx-auto w-[354px]">
+      <div>
         {/* 타이틀 영역 */}
         <div className="mb-8 flex flex-col items-center gap-3">
-          <span className="typo-heading-h1 text-[#1F6FEB]">아직도 이렇게 하시나요?</span>
+          <span className="typo-heading-h1 text-primary">아직도 이렇게 하시나요?</span>
           <h2 className="typo-display-lg text-center whitespace-pre-line text-[#1E1E1E]">
             {'입주 하자 점검,\n왜 이렇게 복잡할까요?'}
           </h2>
-          <p className="typo-body-xl text-center text-[#1F2933]">
+          <p className="typo-body-xl text-foreground text-center">
             정보는 흩어져 있고 기록은 연결되지 않습니다.
           </p>
         </div>

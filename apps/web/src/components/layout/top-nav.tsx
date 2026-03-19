@@ -4,7 +4,7 @@ import { Button } from '@workspace/ui/components/button';
 
 export function TopNav() {
   return (
-    <header className="tablet:h-16 tablet:px-5 desktop:h-18.5 desktop:px-6 flex h-14 items-center border-b border-[#E4E7EB] bg-white px-4">
+    <header className="tablet:h-16 tablet:px-5 desktop:h-18.5 desktop:px-6 border-border flex h-14 items-center bg-white px-4">
       {/* 로고 */}
       <Link href="/" className="flex items-center">
         <Logo28 height={28} />

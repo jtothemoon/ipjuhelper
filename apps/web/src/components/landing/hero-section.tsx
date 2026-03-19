@@ -15,8 +15,8 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* 콘텐츠 */}
-      <div className="relative flex h-full items-end px-8 pb-8">
-        <div className="flex flex-col gap-6">
+      <div className="relative flex h-full items-end justify-center px-8 pt-8 pb-8">
+        <div className="flex w-full flex-col justify-end gap-6">
           <div className="flex flex-col gap-2">
             <h1 className="typo-display-lg whitespace-pre-line text-white">
               {'입주 하자 점검,\n왜 아직도 검색해서\n찾으시나요?'}
@@ -25,7 +25,7 @@ export function HeroSection() {
               {'카페와 단톡방 대신,\n입주도우미에서 바로 연결하세요.'}
             </p>
           </div>
-          <Button className="h-12 px-7">입주도우미 이용하기</Button>
+          <Button className="h-12 self-start px-7">입주도우미 이용하기</Button>
         </div>
       </div>
     </section>

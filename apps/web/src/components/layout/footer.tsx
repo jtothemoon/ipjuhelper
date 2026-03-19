@@ -3,7 +3,7 @@ import Logo26White from '@workspace/ui/assets/logo/logo-26-white.svg';
 export function Footer() {
   return (
     <footer
-      className="tablet:px-6 desktop:px-8 flex items-center justify-center bg-[#1F2933] px-4"
+      className="tablet:px-6 desktop:px-8 bg-foreground flex items-center justify-center px-4"
       style={{ height: 340 }}
     >
       <div className="tablet:w-174 desktop:w-300 relative flex w-88.5 flex-col gap-6">
@@ -22,7 +22,7 @@ export function Footer() {
           </a>
           <a
             href="/terms"
-            className="tablet:text-[15px] tablet:leading-6 text-[14px] leading-5.5 font-normal text-[#F5F7F6]"
+            className="tablet:text-[15px] tablet:leading-6 text-muted text-[14px] leading-5.5 font-normal"
           >
             이용약관
           </a>
@@ -32,13 +32,13 @@ export function Footer() {
         <div className="tablet:gap-4 desktop:gap-5 flex flex-col gap-3">
           <a
             href="/contact"
-            className="tablet:text-[15px] tablet:leading-6 text-[14px] leading-5.5 font-normal text-[#F5F7F6]"
+            className="tablet:text-[15px] tablet:leading-6 text-muted text-[14px] leading-5.5 font-normal"
           >
             문의하기
           </a>
           <a
             href="/faq"
-            className="tablet:text-[15px] tablet:leading-6 text-[14px] leading-5.5 font-normal text-[#F5F7F6]"
+            className="tablet:text-[15px] tablet:leading-6 text-muted text-[14px] leading-5.5 font-normal"
           >
             FAQ
           </a>

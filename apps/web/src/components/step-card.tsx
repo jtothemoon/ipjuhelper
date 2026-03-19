@@ -31,7 +31,7 @@ export function StepCard({
         className="absolute inset-x-0 bottom-0 flex h-17 items-center justify-center rounded-b-[20px] px-4 py-3 backdrop-blur-sm"
         style={{ backgroundColor: overlayColor }}
       >
-        <p className="text-center font-sans text-[16px] leading-5.5 font-semibold tracking-[-0.2px] whitespace-pre-line text-white">
+        <p className="typo-heading-h3 text-center font-sans whitespace-pre-line text-white">
           {title}
         </p>
       </div>
