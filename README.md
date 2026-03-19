@@ -109,7 +109,7 @@ pnpm format
 ### shadcn/ui 컴포넌트 추가
 
 ```bash
-cd apps/web && npx shadcn@latest add <component-name>
+cd packages/ui && npx shadcn@latest add <component-name>
 ```
 
 ---

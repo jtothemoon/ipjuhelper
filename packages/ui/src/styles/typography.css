@@ -1,0 +1,246 @@
+/* ========== Display ========== */
+.typo-display-lg {
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -0.2px;
+  font-weight: 700;
+}
+.typo-display-md {
+  font-size: 34px;
+  line-height: 46px;
+  letter-spacing: -0.2px;
+  font-weight: 700;
+}
+
+/* ========== Heading ========== */
+.typo-heading-h1 {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+}
+.typo-heading-h2 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+}
+.typo-heading-h3 {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+}
+
+/* ========== Body ========== */
+.typo-body-xl {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.typo-body-lg {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.typo-body-md {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.typo-body-sm {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+/* ========== Label ========== */
+.typo-label-xl {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+.typo-label-lg {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+.typo-label-md {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+.typo-label-sm {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+
+/* ========== Number (Roboto) ========== */
+.typo-number-lg {
+  font-family: var(--font-number);
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.typo-number-md {
+  font-family: var(--font-number);
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+.typo-number-sm {
+  font-family: var(--font-number);
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+
+/* ========== Tablet (744px ~ 1023px) ========== */
+@media (max-width: 1023px) {
+  .typo-display-lg {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 600;
+  }
+  .typo-display-md {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
+  }
+  .typo-heading-h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .typo-heading-h2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .typo-heading-h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .typo-body-xl {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .typo-body-lg {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .typo-body-md {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .typo-body-sm {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .typo-label-xl {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .typo-label-lg {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .typo-label-md {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .typo-label-sm {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .typo-number-lg {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .typo-number-md {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .typo-number-sm {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* ========== Mobile (~ 743px) ========== */
+@media (max-width: 743px) {
+  .typo-display-lg {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .typo-display-md {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .typo-heading-h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .typo-heading-h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .typo-heading-h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .typo-body-xl {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .typo-body-lg {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .typo-body-md {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .typo-body-sm {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .typo-label-xl {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .typo-label-lg {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .typo-label-md {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .typo-label-sm {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .typo-number-lg {
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .typo-number-md {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .typo-number-sm {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
